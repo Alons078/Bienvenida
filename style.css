@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+h1{
+    color: #027ae4;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #700000; /* Rosa claro */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos de la navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #663399; /* Violeta */
+}
+
+h2{
+    margin: 5px;
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 200%;
+}
+
+p{
+    margin: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 20px;
+    background-color: #f0f8ff; /* Azul claro */
+}
+/* Estilos de la sección de inicio */
+section#inicio {
+    background-image: url('Fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Escalar la imagen para que cubra toda la sección */
+    background-position: center; /* Centrar la imagen de fondo */
+    background-repeat:repeat; /* Evitar que la imagen se repita */
+    color: #0be478fa; /* Color de texto **/
+}
+
+section#galeria{ 
+    padding: 20px;
+    background-image: url('coras 2.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Escalar la imagen para que cubra toda la sección */
+    background-position: center; /* Centrar la imagen de fondo */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    color: #ffffff; /* Color de texto */
+
+}
+ /*Estilos para la sección de inicio y la foto de portada */
+#inicio #fotoC {
+    width: 1%;
+    height: 20%;
+    right: 10%;
+    margin: 2px;
+
+}
+
+
+/* Estilos para la sección "Inicio" */
+#inicio {
+    position: relative; /* Cambiado a posición relativa */
+    padding: 20px;
+}
+
+/* Estilos para centrar el contenido de la sección "Inicio" */
+#inicio-content {
+    margin: 2px;
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 10px; /* Añade relleno al contenido para que no se vea afectado por el fondo */
+    border-radius: 10px; /* Añade bordes redondeados al contenido */
+}
+
+
+
+/* Establece una disposición en fila para los elementos dentro de la sección de galería */
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('coras 2');
+
+}
+/* Establece el tamaño y margen de las imágenes en la galería */
+#galeria img {
+    width: 50%;
+    height: 30%;
+    margin: 10px;
+}
+
+footer {
+    position: fixed; /* o position: absolute; */
+    bottom: 0;
+    width: 100%;
+    background-color: #800000; /* Borgoña oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos específicos para el video */
+#video {
+    width: 29%;
+    height: 100%;
+    margin: 10px ;
+}
+
+/* Estilos para la sección de inicio y la foto de portada */
+#inicio #fotoC {
+    width: 20%;
+    height: 20%;
+    right: 10%;
+    margin: 10px;
+}
+
+/* Estilos para la sección "Acerca de" */
+#acerca p {
+    font-size: 25px;
+    color: #7b00ee; /* moradito */
+}
+section#acerca{
+    padding: 20px;
+    background-image: url('coras.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Escalar la imagen para que cubra toda la sección */
+    background-position: center; /* Centrar la imagen de fondo */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    color: #00f314; /* Color de texto */
+}
